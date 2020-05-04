@@ -1,0 +1,70 @@
+.title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title.-abs {
+	position: absolute;
+}
+
+.title.-top {
+	top: 20%;
+}
+
+.title.-left {
+	left: -5%;
+}
+
+.title.-l {
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 75px;
+}
+
+.title.-m {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 50px;
+}
+
+.title.-half {
+	width: calc(50% - 20px);
+}
+
+.title.-s {
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 35px;
+	white-space: pre-wrap;
+}
+
+@media screen and (max-width: 1023px) {
+	.title.-l {
+		font-size: 48px;
+		font-weight: 600;
+		line-height: 55px;
+	}
+
+	.title.-s {
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.title.-m {
+		font-size: 20px;
+		line-height: 35px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.title {
+		text-align: center;
+	}
+
+	.title.-w {
+		color: white;
+	}
+
+	.title.-m {
+		width: auto;
+	}
+}

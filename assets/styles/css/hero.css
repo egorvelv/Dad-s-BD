@@ -1,0 +1,12 @@
+.hero {
+	height: 100vh;
+	background-image: url(../../images/hero-bg.png);
+	background-size: cover;
+}
+
+.hero__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
